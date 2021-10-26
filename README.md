@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/r202r9lt1dp74q0i?svg=true)](https://ci.appveyor.com/project/anastasia-shmeleva/ahj-hw8-chat-frontend)

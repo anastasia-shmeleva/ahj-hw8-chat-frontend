@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat</title>
+</head>
+
+<body>
+    <!-- register window -->
+  <div class="modal">
+    <div class="modal__content">
+      <h3 class="modal__header">Выберите псевдоним</h3>
+      <form class="modal__form">
+        <input class="modal__form-input" type="text" name="name" autocomplete="off">
+        <button class="modal__form-btn" type="submit">Продолжить</button>
+      </form>
+    </div>
+  </div>
+  
+    <!-- users list -->
+  <div class="users-list__container">
+    <ul class="users-list">
+    </ul>
+  </div>
+
+  <!-- chat -->
+  <div class="chat">
+    <div class="chat__container">
+      <div class="chat__messages__container">
+        <div class="chat__messages" id="chat__messages">
+        </div>
+      </div>
+      <input id="chat__input" class="chat__input">
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -12,7 +12,7 @@ const messages = chat.querySelector('.chat__messages');
 
 const errorHandler = new ErrorHandler(formInput);
 
-const baseUrl = 'simple-chat-2021.herokuapp.com';
+const baseUrl = 'ahj-hw8-chat.herokuapp.com';
 
 const api = new API(`https://${baseUrl}`, modal, formInput);
 api.connection();

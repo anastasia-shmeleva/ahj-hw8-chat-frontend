@@ -14,7 +14,7 @@ const errorHandler = new ErrorHandler(formInput);
 
 const baseUrl = 'ahj-hw8-chat.herokuapp.com';
 
-const api = new API(`http://${baseUrl}`, modal, formInput);
+const api = new API(`https://${baseUrl}`, modal, formInput);
 api.connection();
 
 form.onsubmit = (event) => {
@@ -36,7 +36,7 @@ form.onsubmit = (event) => {
 
     if (response) {
       // if nickname is valid - open ws connection
-      const ws = new WebSocket(`ws://${baseUrl}`);
+      const ws = new WebSocket(`wss://${baseUrl}`);
 
       ws.addEventListener('open', () => {
         chatInput.disabled = false;
